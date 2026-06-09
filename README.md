@@ -38,26 +38,30 @@ The system uses MediaPipe Face Mesh for eye detection, CNN-based feature extract
 ## 📂 Project Structure
 
 ```text
-Retina-Heart-Rate-AI
+RETINA_HR_AI
+│
+├── __pycache__
+│   └── main.cpython-310.pyc
 │
 ├── cnn
-│   ├── efficientphys.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-310.pyc
+│   │   └── efficientphys.cpython-310.pyc
+│   ├── __init__.py
+│   └── efficientphys.py
 │
 ├── detection
-│   ├── eye_roi.py
-│   ├── facemesh_detector.py
+├── outputs
+│
+├── image.png
 │
 ├── processing
-│   ├── blink_detector.py
-│   ├── bpm.py
-│   ├── filter.py
-│
 ├── ui
-│   ├── dashboard.py
 │
+├── .gitignore
 ├── main.py
-├── requirements.txt
-└── README.md
+├── README.md
+└── requirements.txt
 ```
 
 ---
