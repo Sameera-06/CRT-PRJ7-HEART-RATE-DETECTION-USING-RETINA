@@ -203,7 +203,8 @@ pip install -r requirements.txt
 python main.py
 ```
 
-![alt text](<Screenshot 2026-06-08 093532.png>)
+<img width="997" height="543" alt="Screenshot 2026-06-08 093532" src="https://github.com/user-attachments/assets/1a9f1d50-7f2d-46f9-acf6-e4bfd885b096" />
+
 
 ---
 
